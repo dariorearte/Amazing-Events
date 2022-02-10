@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMAZING EVENTS</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/events.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <a href="./index.html">Inicio</a>
+            <a href="./next-events.html">Próximos Eventos</a>
+            <a id="page-on" href="#">Eventos Pasados</a>
+            <a href="./register.html">Registro</a>
+        </div>
+
+        <div class="logoAndTitle">
+            <img src="./assets/logo.png" alt="logo" id="logo">
+            <h1>AMAZING EVENTS</h1>
+            <div>
+                <label for="search">🔎</label>
+                <input type="text" id="search" placeholder="Buscar evento">
+                <select name="categories" id="categories">
+                    <option value="-1" selected>Categorias...</option>
+                    <option value="1">Arte</option>
+                    <option value="2">Cine</option>
+                    <option value="3">Conciertos</option>
+                    <option value="4">Deportes</option>
+                    <option value="5">Fiestas</option>
+                    <option value="6">Gastronomía</option>
+                    <option value="7">Otros</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="events" >
+            <div class="subt" >
+                <h2>Eventos Pasados</h2>
+                <h3>Recuerdo de nuestros eventos ya realizados.</h3>
+            </div>
+
+            <div class="cards" >
+                <article class="card">
+                    <img src="./assets/Images/Feria-de-comidas7.jpg" alt="foto-colectividades">
+                    <div class="quickInfo" >
+                        <h2>Fiesta de las colectividades</h2>
+                        <div>
+                            <p>Disfruta de tus platos favoritos, de los diferentes paises,<br> en un evento unico para toda la familia</p>
+                            <p>2021-12-12</p>
+                        </div>
+                        <a class="btn" href="#">+Info</a>
+                    </div>
+                </article>
+                
+                <article class="card">
+                    <img src="./assets/Images/Salida-al-museo5.jpg" alt="foto-museo">
+                    <div class="quickInfo" >
+                        <h2>Parque Jurásico</h2>
+                        <div>
+                            <p>Vamos al museo de paleontologia a hacer un recorrido <br> increible para conocer los mas grandes dinosaurios</p>
+                            <p>2021-11-02</p>
+                        </div>
+                        <a class="btn" href="#">+Info</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="./assets/Salida-al-museo/Salida-al-museo7.jpg" alt="foto-feria">
+                    <div class="quickInfo" >
+                        <h2>Feria del libro Escolar</h2>
+                        <div>
+                            <p>Trae tu libro escolar que ya no usas y lleva el que necesites</p>
+                            <p>2021-10-15</p>
+                        </div>
+                        <a class="btn" href="#">+Info</a>
+                    </div>
+                </article>
+                
+                <article class="card">
+                    <img src="./assets/Images/Maraton3.jpg" alt="foto-maraton">
+                    <div class="quickInfo" >
+                        <h2>10K por la vida</h2>
+                        <div>
+                            <p>Ven y haz ejercicio, mejora tu salud y tu estilo de vida</p>
+                            <p>2021-03-01</p>
+                        </div>
+                        <a class="btn" href="#">+Info</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <h4>Developer - Dario Andres Rearte</h4>
+        <h4>Amazing Events 2022&copy;</h4>
+        <h4>Mern Full Stack of MindHub</h4>
+    </footer>
+    
+</body>
+</html>

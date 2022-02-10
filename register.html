@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMAZING EVENTS</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/register.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <a href="./index.html">Inicio</a>
+            <a href="./next-events.html">Próximos Eventos</a>
+            <a href="./latest-events.html">Eventos Pasados</a>
+            <a id="page-on" href="#">Registro</a>
+        </div>
+
+        <div class="logoAndTitle">
+            <img src="./assets/logo.png" alt="logo" id="logo">
+            <h1>AMAZING EVENTS</h1>
+            <div class="buscadores">
+                <label for="search">🔎</label>
+                <input type="text" id="search" placeholder="Buscar evento">
+                <select name="categories" id="categories">
+                    <option value="-1" selected>Categorias...</option>
+                    <option value="1">Arte</option>
+                    <option value="2">Cine</option>
+                    <option value="3">Conciertos</option>
+                    <option value="4">Deportes</option>
+                    <option value="5">Fiestas</option>
+                    <option value="6">Gastronomía</option>
+                    <option value="7">Otros</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <form id="formRegistro" action="./show_data.html">
+            <div class="formu">
+                <div class="f1">
+                    <label for="name">Nombre Completo</label>
+                    <input type="text" name="nombre-apellido" id="name">
+                </div>
+                <div class="f2">
+                    <label for="mail">Email</label>
+                    <input type="email" name="email" id="mail">
+                </div>
+            </div>
+
+            <div class="formu">
+                <div class="f1">
+                    <label for="pass">Contraseña</label>
+                    <input type="password" name="password" id="pass">
+                </div>
+                <div class="f2">
+                    <label for="confirmPass">Contraseña (Confirmar)</label>
+                    <input type="password" name="passwordConfirm" id="confirmPass">
+                </div>
+            </div>
+
+            <div class="formu">
+                <div class="f1">
+                    <label for="user">Tipo de Usuario</label>
+                    <select name="user" id="user">
+                    <option value="-1" selected>Seleccione...</option>
+                    <option value="1">Estudiante</option>
+                    <option value="2">Docente</option>
+                    <option value="3">Otro</option>
+                    </select>
+                </div>
+                <div class="f00">
+                    <input type="checkbox" name="accept" id="accept">
+                    <label for="accept">Acepto los terminos y condiciones.</label>
+                    <input id="bot" type="submit" value="Confirmar">
+                </div>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <h4>Developer - Dario Andres Rearte</h4>
+        <h4>Amazing Events 2022&copy;</h4>
+        <h4>Mern Full Stack of MindHub</h4>
+    </footer>
+</body>
+</html>

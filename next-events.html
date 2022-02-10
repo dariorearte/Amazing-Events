@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMAZING EVENTS</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/events.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <a href="./index.html">Inicio</a>
+            <a id="page-on" href="#">Próximos Eventos</a>
+            <a href="./latest-events.html">Eventos Pasados</a>
+            <a href="./register.html">Registro</a>
+        </div>
+
+        <div class="logoAndTitle">
+            <img src="./assets/logo.png" alt="logo" id="logo">
+            <h1>AMAZING EVENTS</h1>
+            <div>
+                <label for="search">🔎</label>
+                <input type="text" id="search" placeholder="Buscar evento">
+                <select name="categories" id="categories">
+                    <option value="-1" selected>Categorias...</option>
+                    <option value="1">Arte</option>
+                    <option value="2">Cine</option>
+                    <option value="3">Conciertos</option>
+                    <option value="4">Deportes</option>
+                    <option value="5">Fiestas</option>
+                    <option value="6">Gastronomía</option>
+                    <option value="7">Otros</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="events">
+            <div class="subt" >
+                <h2>Próximos Eventos</h2>
+                <h3>¡Venga a divertirse en nuestros próximos eventos!</h3>
+            </div>
+
+            <div class="cards" >
+                <article class="card">
+                    <img src="./assets/Images/Concierto-de-musica1.jpg" alt="foto-concierto">
+                    <div class="quickInfo" >
+                        <h2>Metallica in concert</h2>
+                        <div>
+                            <p>Unico recital de la banda mas emblematica</p>
+                            <p>2022-01-22</p>
+                        </div>
+                        <a class="btn" href="#">+Info</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="./assets/Images/Fiesta-de-disfraces1.jpg" alt="foto-halloween">
+                    <div class="quickInfo" >
+                        <h2>Noche de Halloween</h2>
+                        <div>
+                            <p>Ven con tu personaje disfras mas aterrador para ganar increibles premios</p>
+                            <p>2022-02-12</p>
+                        </div>
+                        <a class="btn" href="#">+Info</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="./assets/Images/Cine7.jpg" alt="foto-cine">
+                    <div class="quickInfo" >
+                        <h2>Avengers</h2>
+                        <div>
+                            <p>Premier en 3d de Avengers de Marvel el inicio de una saga epica con tus mejores superheroes</p>
+                            <p>2022-10-15</p>
+                        </div>
+                        <a class="btn" href="#">+Info</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <h4>Developer - Dario Andres Rearte</h4>
+        <h4>Amazing Events 2022&copy;</h4>
+        <h4>Mern Full Stack of MindHub</h4>
+    </footer>
+
+</body>
+</html>
